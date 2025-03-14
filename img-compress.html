@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your one-stop destination for free online tools. Compress PDFs, convert images, edit videos, and more!">
+    <meta name="keywords" content="online tools, PDF tools, image tools, video tools, AI tools, file tools, free tools">
+    <meta name="author" content="Your Name">
+    <title>Online Tools - Free PDF, Image, Video, and AI Tools</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-top: 10px;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .category {
+            margin-bottom: 40px;
+        }
+
+        .category h2 {
+            font-size: 1.8rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tool-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tool-card i {
+            font-size: 2.5rem;
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        .tool-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .tool-card p {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .tool-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .tool-card a:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .tools-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+
+            .tool-card h3 {
+                font-size: 1.2rem;
+            }
+
+            .tool-card p {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .tool-card {
+                padding: 15px;
+            }
+
+            .tool-card i {
+                font-size: 2rem;
+            }
+
+            .tool-card a {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Tools</h1>
+        <p>Your one-stop destination for free online tools. Compress PDFs, convert images, edit videos, and more!</p>
+    </header>
+    <main>
+        <!-- PDF Tools -->
+        <div class="category">
+            <h2>PDF Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>Merge PDF</h3>
+                    <p>Merge 2 or more PDF files into a single PDF file.</p>
+                    <a href="/merge-pdf">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>Compress PDF</h3>
+                    <p>Lessen the file size of a PDF file.</p>
+                    <a href="/compress-pdf">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>Word to PDF</h3>
+                    <p>Convert a Word Document to PDF.</p>
+                    <a href="/word-to-pdf">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>PDF to Word</h3>
+                    <p>Convert a PDF to Word Document.</p>
+                    <a href="/pdf-to-word">Use Tool</a>
+                </div>
+                <!-- Add more PDF tools here -->
+            </div>
+        </div>
+
+        <!-- Image Tools -->
+        <div class="category">
+            <h2>Image Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <i class="fas fa-image"></i>
+                    <h3>Compress Image</h3>
+                    <p>Compress your image without losing quality.</p>
+                    <a href="/compress-image">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-image"></i>
+                    <h3>Remove Background</h3>
+                    <p>Easily remove the background from an image.</p>
+                    <a href="/remove-background">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-image"></i>
+                    <h3>Image to Text</h3>
+                    <p>Extract text from an image.</p>
+                    <a href="/image-to-text">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-image"></i>
+                    <h3>Resize Image</h3>
+                    <p>Resize your image to desired dimensions.</p>
+                    <a href="/resize-image">Use Tool</a>
+                </div>
+                <!-- Add more Image tools here -->
+            </div>
+        </div>
+
+        <!-- Video Tools -->
+        <div class="category">
+            <h2>Video Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Compress Video</h3>
+                    <p>Lessen the file size of a video file.</p>
+                    <a href="/compress-video">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-video"></i>
+                    <h3>MP4 to MP3</h3>
+                    <p>Convert MP4 to MP3 audio.</p>
+                    <a href="/mp4-to-mp3">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Video to GIF</h3>
+                    <p>Convert a video to an animated GIF.</p>
+                    <a href="/video-to-gif">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Trim Video</h3>
+                    <p>Trim your video to the desired length.</p>
+                    <a href="/trim-video">Use Tool</a>
+                </div>
+                <!-- Add more Video tools here -->
+            </div>
+        </div>
+
+        <!-- AI Tools -->
+        <div class="category">
+            <h2>AI Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Image Generator</h3>
+                    <p>Generate images using AI.</p>
+                    <a href="/ai-image-generator">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Content Detector</h3>
+                    <p>Detect AI-generated content.</p>
+                    <a href="/ai-detector">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Article Writer</h3>
+                    <p>Generate articles using AI.</p>
+                    <a href="/ai-article-writer">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Grammar Fixer</h3>
+                    <p>Fix grammar in your text using AI.</p>
+                    <a href="/ai-grammar-fixer">Use Tool</a>
+                </div>
+                <!-- Add more AI tools here -->
+            </div>
+        </div>
+
+        <!-- File Tools -->
+        <div class="category">
+            <h2>File Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <i class="fas fa-file"></i>
+                    <h3>Split CSV</h3>
+                    <p>Split a CSV file into multiple files.</p>
+                    <a href="/split-csv">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file"></i>
+                    <h3>Excel to PDF</h3>
+                    <p>Convert Excel files to PDF.</p>
+                    <a href="/excel-to-pdf">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file"></i>
+                    <h3>XML to JSON</h3>
+                    <p>Convert XML files to JSON.</p>
+                    <a href="/xml-to-json">Use Tool</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file"></i>
+                    <h3>CSV to Excel</h3>
+                    <p>Convert CSV files to Excel.</p>
+                    <a href="/csv-to-excel">Use Tool</a>
+                </div>
+                <!-- Add more File tools here -->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Online Tools. All rights reserved.</p>
+    </footer>
+</body>
+</html>
